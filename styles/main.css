@@ -1,0 +1,555 @@
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+body {
+	background: url('../images/background3.jpg');
+	background-size: cover;
+}
+
+.container {
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+h1,h2,h3 {
+	font-weight: 100;
+	margin: 0;
+	padding:0;
+}
+
+h1 {
+	font-size: 30px;
+	font-family: 'Parisienne', cursive, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 24px;
+	text-align: center;
+	font-family: 'Parisienne', cursive, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+h3 {
+	font-size: 18px;
+	font-family: 'Calligraffitti', cursive, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+p {
+	margin: 0 auto;
+	font-family: 'Shadows Into Light Two', cursive, "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+}
+
+ul li {
+	font-family: 'Shadows Into Light Two', cursive, "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+}
+
+/*-------------Header----------------------*/
+
+header {
+	text-align: center;
+	padding: 50px 0px;
+	border-bottom: 1px solid #000;
+}
+
+header p {
+	padding: 15px 100px;
+}
+
+/*-------------Navigation----------------------*/
+
+nav {
+	border-bottom: 1px solid #000;
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-weight: bold;	
+	color: #000;
+	font-family: 'Parisienne', cursive;
+	font-size: 20px;
+}
+
+nav ul {
+	padding: 20px;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline;
+	padding: 0px 50px;
+	border-right: 1px solid #000;
+}
+
+nav ul li:last-child {
+	border-right: none; 
+}
+
+/*-------------About Me Section----------------------*/
+
+#profilePic {
+	float: left;
+	margin-left: 13%;	
+}
+
+#aboutMe {
+	padding: 50px 0px;
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid #000;
+}
+
+#aboutMe h2 {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#aboutMe #myInfo {
+	width: 20%;
+	float: left;
+	padding: 10px 40px;
+}
+
+#aboutMe #myInfo li {
+	margin-bottom: 10px;
+}
+
+#aboutMe #hobbies {
+	float: left;
+	padding: 30px;
+	margin-left: 80px;
+}
+
+#aboutMe #hobbies h3 {
+	margin-bottom: 10px;
+	border-bottom: 1px solid #000;
+}
+
+#aboutMe #hobbies li {
+	margin-bottom: 5px;
+}
+
+/*-------------Awards Section----------------------*/
+
+#awards {
+	float: left;
+	padding: 50px 0px;
+	width: 100%;
+	border-bottom: 1px solid #000;
+}
+
+#awards ul {
+	padding: 30px 40px;
+}
+
+#awards ul li {
+	margin-bottom: 10px;
+}
+
+.leftSide {
+	float: left;
+	width: 30%;
+	margin-left: 17%;
+}
+
+.rightSide {
+	float: left;
+	width: 40%;
+	margin-left: 10%;
+}
+
+/*-------------Work History Section----------------------*/
+
+#workHistory {
+	padding: 50px 0px;
+	width: 100%;
+	float: left;
+	margin: 0 auto;
+	border-bottom: 1px solid #000;
+}
+
+#workHistory ul {
+	padding: 30px 40px;
+}
+
+#workHistory ul li {
+	margin-bottom: 10px;
+}
+
+/*-------------Reference Section----------------------*/
+
+#references {
+	width: 100%;
+	float: left;
+	padding: 50px 0px;
+	margin: 0 auto;
+	text-align: center;
+	border-bottom: 1px solid #000;
+}
+
+#references h2 {
+	padding-bottom: 20px;
+}
+
+#ref1 {
+	width: 33%;
+	float: left;
+	padding: 20px;
+}
+
+#ref2 {
+	width: 33%;
+	float: left;
+	padding: 20px;
+}
+
+#ref3 {
+	width: 33%;
+	float: left;
+	padding: 20px;
+}
+
+/*-------------Footer----------------------*/
+
+footer {
+	width: 100%;
+	float: left;
+	padding: 50px 0px;
+}
+
+#contact h2 {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#leftSideContact {
+	float: left;
+	width: 40%;
+	margin-left: 10%;
+}
+
+#rightSideContact {
+	float: left;
+	width: 40%;
+}
+
+#phone {
+	height: 100px;
+	width: 50%;
+	margin: 0 90px;
+}
+
+#phonePic {
+	float: left;
+	background: url('../images/smartphone-icon.png') no-repeat;	
+	width: 30%;
+	height: 100px;
+}
+
+#phone h3 {
+	float: right;
+	padding-top: 27px;
+}
+
+#email {
+	height: 100px;
+	width: 80%;
+	margin: 0 90px;
+}
+
+#emailPic {
+	float: left;
+	background: url('../images/email-icon.png') no-repeat;
+	width: 20%;
+	height: 100px;
+}
+
+#email h3 {
+	float: right;
+	padding-top: 27px;
+}
+
+#location {
+	height: 100px;
+	width: 70%;
+	margin: 0 90px;
+}
+
+#locationPic {
+	background: url('../images/location-icon.png') no-repeat;
+	float: left;
+	width: 20%;
+	height: 100px;
+}
+
+#location h3 {
+	float: right;
+	padding-top: 27px;
+}
+
+#socialMedia {
+	height: 100px;
+	width: 100%;
+	margin: 95px 90px;
+}
+
+#facebook {
+	float: left;
+	background: url('../images/facebook-icon.png') no-repeat;
+	height: 74px;
+	width: 74px;
+}
+
+#twitter {
+	float: left;
+	background: url('../images/twitter-icon.png') no-repeat;
+	height: 74px;
+	width: 74px;
+}
+
+#socialMedia h3 {
+	float: left;
+	padding-top: 27px;
+	margin-right: 10px;
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+
+	h1{
+		font-weight: bold;
+	}
+
+	h2{
+		font-weight: bold;
+	}
+
+	h3{
+		font-weight: bold;
+	}
+
+	p {
+		font-weight: bold;
+	}
+
+	ul li {
+		font-weight: bold;
+	}
+
+	/*-----header---------*/
+
+	header {
+		padding: 50px 0px 10px;
+	}
+
+	header p {
+		padding: 25px 40px;
+	}
+
+	/*-----nav---------*/
+
+	nav ul {
+		padding: 40px; /* mess with i think*/
+		text-align: center;
+	}
+
+	nav ul li {
+		border-right: none;
+	}
+
+	/*-----aboutMe---------*/
+
+	#profilePic {
+		float: left;
+		text-align: center;	
+	}
+
+	#aboutMe {
+		padding: 30px 40px 10px;
+		float: left;
+		width: 100%;
+	}
+
+	#aboutMe #myInfo {
+		width: 100%;
+		float: left;
+		padding: 30px 50px;
+	}
+
+	#aboutMe #hobbies {
+		display: none;
+	}
+
+	/*-----Awards---------*/
+
+	#awards h2 {
+		padding-bottom: 30px;
+	}
+
+	#awards ul {
+		padding: 0px;
+		padding-right: 10px;
+	}
+
+	.leftSide {
+		float: none;
+		width: 80%;
+	}
+
+	.rightSide {
+		float: none;
+		width: 80%;
+		margin-left: 17%;
+	}
+
+	/*-----WorkHistory---------*/
+
+	#workHistory h2 {
+		padding-bottom: 30px;
+	}
+
+	#workHistory ul {
+		padding: 0px 0px;
+		padding-right: 10px;
+	}
+
+	/*-----References---------*/
+
+	#references {
+		padding: 50px 0px 10px;
+	}
+
+	#ref1 {
+		width: 100%;
+		padding: 15px;
+		padding-top: 30px;
+	}
+
+	#ref2 {
+		width: 100%;
+		padding: 15px;
+	}
+
+	#ref3 {
+		width: 100%;
+		padding: 15px;
+	}
+
+	/*-----Contact---------*/
+
+	footer {
+		padding: 30px 0px 0px;
+	}
+
+	#contact h2 {
+		text-align: center;
+		padding-bottom: 20px;
+	}
+
+	#leftSideContact {
+		float: left;
+		width: 100%;
+		margin-left: 10%;
+	}
+
+	#rightSideContact {
+		float: left;
+		width: 100%;
+	}
+
+	#phone {
+		height: 110px;
+		width: 100%;
+		margin: 0px;
+	}
+
+	#phonePic {
+		float: left;
+		background: url('../images/smartphone-icon.png') no-repeat;	
+		width: 100%;
+		height: 70px;
+		background-size: 15%;
+		margin-left: 32%;
+	}
+
+	#phone h3 {
+		float: none;
+		padding-top: 15px;
+		margin-left: 18%;
+	}
+
+	#email {
+		height: 110px;
+		width: 100%;
+		margin: 0px;
+	}
+
+	#emailPic {
+		float: left;
+		background: url('../images/email-icon.png') no-repeat;
+		width: 100%;
+		height: 70px;
+		background-size: 15%;
+		margin-left: 32%;
+	}
+
+	#email h3 {
+		float: none;
+		padding-top: 15px;
+		margin-left: 5%;
+	}
+
+	#location {
+		height: 110px;
+		width: 100%;
+		margin: 0px;
+	}
+
+	#locationPic {
+		background: url('../images/location-icon.png') no-repeat;
+		float: left;
+		width: 100%;
+		height: 50px;
+		background-size: 15%;
+		margin-left: 32%;
+	}
+
+	#location h3 {
+		float: none;
+		padding-top: 15px;
+		margin-left: 12%;
+	}
+
+	#socialMedia {
+		height: 0px;
+		width: 100%;
+		margin: 0px 90px;
+	}
+
+	#facebook {
+		float: left;
+		background: url('../images/facebook-icon.png') no-repeat;
+		height: 44px;
+		width: 44px;
+		background-size: 100%;
+		margin-left: 10px;
+	}
+
+	#twitter {
+		float: left;
+		background: url('../images/twitter-icon.png') no-repeat;
+		height: 44px;
+		width: 44px;
+		background-size: 100%;
+		margin-left: 10px;
+	}
+
+	#socialMedia h3 {
+		float: none;
+		padding-top: 27px;
+		margin-right: 5px;
+		margin-bottom: 15px;
+		width: 100%;
+	}
+}
